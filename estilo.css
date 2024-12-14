@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'CorruptedFile';
+    src: url('./fontes/corrupted-file.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.letras{
+    font-family: 'CorruptedFile', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+}
+.corpo{
+    background-color: rgb(20, 20, 20);
+}
+
+.simbolo{
+    width: 450px;
+    height: auto;
+}
+
+.centro{
+    text-align: center;
+}
+
+#senha{
+    background-color: #000;
+    color: white;
+    width: 30%;
+    border: 2px solid white;
+    height: 20px;
+    text-align: center;
+    font-family:'CorruptedFile', sans-serif ;
+}
+
+#botao{
+   font-family:'CorruptedFile', sans-serif; ;
+   width: 15%;
+   height: 40px;
+   color: black;
+   background-color: blueviolet;
+   font-size: xx-large;
+}
+
+.ajuste{
+    width: 40%;
+}
